@@ -201,7 +201,7 @@ function FindChar()
     return lplr.Character
 end
 
-infotxt.Text = "HIDING BOSSES"
+infotxt.Text = "Kevin"
 local r = math.random(1,1e9)
 _G.Key = r
 pcall(function()game.ReplicatedStorage.BossMaps.Parent = game.Workspace.Others end)
@@ -544,7 +544,7 @@ pausestart.BorderSizePixel = 0
 pausestart.Position = UDim2.new(0.0116822431, 0, 0.59219861, 0)
 pausestart.Size = UDim2.new(0.56775701, 0, 0.0531914905, 0)
 pausestart.Font = Enum.Font.SourceSans
-pausestart.Text = "Pause Autofarm"
+pausestart.Text = "Pausar Farm"
 pausestart.TextColor3 = Color3.fromRGB(255, 0, 0)
 pausestart.TextScaled = true
 pausestart.TextSize = 14.000
@@ -561,7 +561,7 @@ destroygui.BorderSizePixel = 0
 destroygui.Position = UDim2.new(0.584112167, 0, 0.819148958, 0)
 destroygui.Size = UDim2.new(0.343457937, 0, 0.060283687, 0)
 destroygui.Font = Enum.Font.SourceSans
-destroygui.Text = "Destroy GUI"
+destroygui.Text = "Destruir Menu"
 destroygui.TextColor3 = Color3.fromRGB(255, 255, 255)
 destroygui.TextSize = 14.000
 destroygui.TextStrokeTransparency = 0.770
